@@ -1,5 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 
 h1 {
@@ -209,7 +218,7 @@ ul{
   height: 300px;
   top: 70%;
   z-index: -1;
-  left: 6%;
+  left: 16%;
 }
 
 ul li{
